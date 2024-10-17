@@ -14,7 +14,7 @@ Configurar_Pagina("Exemplo 1",
 st.title("PIPOCA NET NOTÍCIAS")
 
 # Use st.header("") para adicionar um CABEÇALHO ao seu Web app
-st.header("BOA NOITE PATETA, OBRIGADO POR VISITAR MEU SITE")
+st.header("BOA NOITE PATETA, OBRIGADO POR VISITAR MEU SITE!")
 
 # Use st.subheader("") para adicionar um SUB CABEÇALHO ao seu Web app
 st.subheader("Sub Cabeçalho")
