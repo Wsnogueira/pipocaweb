@@ -22,7 +22,7 @@ st.subheader("News, mais um trouxa acessou este site")
 # Use st.write("") para adicionar um texto ao seu Web app
 st.write("Como já deve ter percebido, o método st.write() é usado para escrita de texto e informações gerais!")
 values = st.slider("Select a range of values", 0.0, 100.0, (25.0, 75.0))
-st.write("Values:", values)
+st.write("Nivel de surpresa!:", values)
 Divisor()
     
 coluna1 = Colunas(3)
