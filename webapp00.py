@@ -17,7 +17,7 @@ st.title("PIPOCA NET NOTÍCIAS")
 st.header("BOA NOITE PATETA, OBRIGADO POR VISITAR MEU SITE!")
 
 # Use st.subheader("") para adicionar um SUB CABEÇALHO ao seu Web app
-st.subheader("Sub Cabeçalho")
+st.subheader("New mais um trouxa acessou este site")
 
 # Use st.write("") para adicionar um texto ao seu Web app
 st.write("Como já deve ter percebido, o método st.write() é usado para escrita de texto e informações gerais!")
