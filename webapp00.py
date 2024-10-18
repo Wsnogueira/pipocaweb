@@ -1,7 +1,9 @@
 # MEU PRIMEIRO WEB APP
 import streamlit as st
 from ACTlib01 import *
-
+url ="https://docs.google.com/spreadsheets/d/e/2PACX-1vQSGIgnQyt96-rdZNa1CGvOcunDywRNqYTgg6floVGNRG5HXFK2nXOprL5_ZvQfogIsWs0C6kzR5XkR/pub?gid=1616225883&single=true&output=csv"
+db= Ler_GooglePlanilha(url)
+Escrever(db)
 Configurar_Pagina("Exemplo 1", 
                     "amplo", 
                     "auto", 
@@ -20,7 +22,7 @@ st.header("BOA NOITE PATETA, OBRIGADO POR VISITAR MEU SITE!")
 st.subheader("News, mais um trouxa acessou este site")
 
 # Use st.write("") para adicionar um texto ao seu Web app
-st.write("Como já deve ter percebido, o método st.write() é usado para escrita de texto e informações gerais!")
+#st.write("Como já deve ter percebido, o método st.write() é usado para escrita de texto e informações gerais!")
 values = st.slider("Select a range of values", 0.0, 100.0, (25.0, 75.0))
 st.write("Nivel de surpresa!:", values)
 Divisor()
